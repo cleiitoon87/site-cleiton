@@ -1,0 +1,104 @@
+<!DOCTYPE html><html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Massoterapia Profissional - Cleiton Silva</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f5f5f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      background-color: #000;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    header img {
+      max-width: 200px;
+      margin-bottom: 10px;
+    }
+    section {
+      padding: 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .servico {
+      background-color: white;
+      padding: 15px;
+      margin-bottom: 15px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    .servico h3 {
+      margin: 0;
+      color: #a10000;
+    }
+    .servico p {
+      margin: 5px 0;
+    }
+    .preco {
+      font-weight: bold;
+      color: #006400;
+    }
+    .whatsapp {
+      display: block;
+      text-align: center;
+      margin: 30px 0;
+    }
+    .whatsapp a {
+      background-color: #25D366;
+      color: white;
+      padding: 15px 25px;
+      text-decoration: none;
+      font-size: 18px;
+      border-radius: 30px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="cleiton-silva-logo.png" alt="Logo Cleiton Silva Massoterapeuta">
+    <h1>Cleiton Silva • Massoterapeuta</h1>
+    <p>Cuidando do seu corpo e mente com técnicas terapêuticas especializadas.</p>
+  </header>  <section>
+    <h2>Serviços</h2><div class="servico">
+  <h3>Massagem Relaxante</h3>
+  <p class="preco">R$100</p>
+  <p>Reduz o estresse e melhora a circulação. Ideal para aliviar a tensão do dia a dia.</p>
+</div>
+
+<div class="servico">
+  <h3>Liberação Miofascial</h3>
+  <p class="preco">R$120</p>
+  <p>Técnica que solta tensões profundas e melhora a mobilidade muscular.</p>
+</div>
+
+<div class="servico">
+  <h3>Xiatô Tradicional</h3>
+  <p class="preco">R$120</p>
+  <p>Estimula pontos específicos do corpo para promover equilíbrio energético e alívio da dor.</p>
+</div>
+
+<div class="servico">
+  <h3>Massagem Sueca</h3>
+  <p class="preco">R$110</p>
+  <p>Movimentos suaves que ativam a circulação e relaxam os músculos de forma intensa.</p>
+</div>
+
+<div class="servico">
+  <h3>Reflexologia Podal</h3>
+  <p class="preco">R$80</p>
+  <p>Estimula pontos nos pés que refletem em diferentes órgãos do corpo, promovendo bem-estar geral.</p>
+</div>
+
+<div class="whatsapp">
+  <a href="https://wa.me/5581SEUNUMERO" target="_blank">Agende pelo WhatsApp</a>
+</div>
+
+  </section>
+</body>
+</html>
