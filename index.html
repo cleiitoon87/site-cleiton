@@ -1,44 +1,127 @@
 <!DOCTYPE html>
-
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-<title>Cleiton Silva Massoterapeuta</title>
-<link href="style.css" rel="stylesheet"/>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Cleiton Silva Massoterapeuta</title>
+  <style>
+    body {
+      background-color: #0a0a23;
+      color: #d4af37;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      text-align: center;
+      padding: 30px 20px 10px;
+    }
+
+    .logo {
+      max-width: 160px;
+      margin-bottom: 10px;
+    }
+
+    .atendimento {
+      color: red;
+      font-size: 20px;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    h1 {
+      font-size: 26px;
+      margin-top: 10px;
+    }
+
+    .servico {
+      background-color: #101035;
+      border: 1px solid #d4af37;
+      border-radius: 12px;
+      margin: 20px auto;
+      padding: 20px;
+      max-width: 90%;
+      box-shadow: 0 4px 12px rgba(212, 175, 55, 0.2);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .servico:hover {
+      transform: scale(1.02);
+      box-shadow: 0 6px 20px rgba(212, 175, 55, 0.4);
+    }
+
+    .servico h2 {
+      display: flex;
+      align-items: center;
+      font-size: 22px;
+      margin-bottom: 8px;
+    }
+
+    .servico h2::before {
+      content: "✨";
+      margin-right: 10px;
+    }
+
+    .servico p {
+      font-size: 16px;
+      margin-bottom: 15px;
+    }
+
+    .servico button {
+      background-color: #d4af37;
+      color: #0a0a23;
+      font-weight: bold;
+      border: none;
+      border-radius: 8px;
+      padding: 10px 20px;
+      cursor: pointer;
+      transition: background 0.3s, transform 0.3s;
+    }
+
+    .servico button:hover {
+      background-color: #ffde7a;
+      transform: scale(1.05);
+    }
+  </style>
 </head>
 <body>
-<header>
-<img alt="Logo Cleiton Silva" src="logo.png"/>
-<div class="domicilio">Atendimento domiciliar</div>
-</header>
-<main>
-<h1>Serviços</h1>
-<div class="servico">
-<h2>Massagem Relaxante</h2>
-<p>Ajuda a aliviar o estresse, melhorar a circulação e promover o bem-estar físico e mental.</p>
-<a class="botao" href="relaxante.html">Ver mais</a>
-</div>
-<div class="servico">
-<h2>Liberação Miofascial</h2>
-<p>Técnica que trabalha as fáscias musculares, aliviando tensões e dores crônicas.</p>
-<a class="botao" href="miofascial.html">Ver mais</a>
-</div>
-<div class="servico">
-<h2>Shiatsu Tradicional</h2>
-<p>Massagem japonesa com pressão dos dedos em pontos específicos, promovendo equilíbrio energético.</p>
-<a class="botao" href="shiatsu.html">Ver mais</a>
-</div>
-<div class="servico">
-<h2>Massagem Sueca</h2>
-<p>Utiliza movimentos suaves e firmes para melhorar a circulação e aliviar tensões musculares.</p>
-<a class="botao" href="sueca.html">Ver mais</a>
-</div>
-<div class="servico">
-<h2>Reflexologia Podal</h2>
-<p>Estimulação de pontos nos pés que correspondem a diferentes órgãos do corpo, promovendo equilíbrio.</p>
-<a class="botao" href="reflexologia.html">Ver mais</a>
-</div>
-</main>
+
+  <header>
+    <img src="logo.png" alt="Logo Cleiton Silva Massoterapeuta" class="logo" />
+    <div class="atendimento">Atendimento domiciliar</div>
+    <h1>Cleiton Silva Massoterapeuta</h1>
+  </header>
+
+  <div class="servico">
+    <h2>Massagem Relaxante - R$100</h2>
+    <p>Promove alívio do estresse, relaxamento profundo e bem-estar.</p>
+    <button onclick="location.href='https://wa.me/5581985090209'">Agende sua consulta de Massagem Relaxante</button>
+  </div>
+
+  <div class="servico">
+    <h2>Liberação Miofascial - R$120</h2>
+    <p>Melhora a mobilidade muscular e reduz tensões profundas.</p>
+    <button onclick="location.href='https://wa.me/5581985090209'">Agende sua consulta de Liberação Miofascial</button>
+  </div>
+
+  <div class="servico">
+    <h2>Shiatsu Tradicional - R$120</h2>
+    <p>Técnica japonesa que equilibra o fluxo energético com pressão dos dedos.</p>
+    <button onclick="location.href='https://wa.me/5581985090209'">Agende sua consulta de Shiatsu Tradicional</button>
+  </div>
+
+  <div class="servico">
+    <h2>Massagem Sueca - R$110</h2>
+    <p>Ideal para aliviar dores e melhorar a circulação com toques suaves e profundos.</p>
+    <button onclick="location.href='https://wa.me/5581985090209'">Agende sua consulta de Massagem Sueca</button>
+  </div>
+
+  <div class="servico">
+    <h2>Reflexologia Podal - R$80</h2>
+    <p>Trabalha pontos nos pés que refletem todos os órgãos do corpo.</p>
+    <button onclick="location.href='https://wa.me/5581985090209'">Agende sua consulta de Reflexologia Podal</button>
+  </div>
+
 </body>
 </html>
